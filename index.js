@@ -41,21 +41,24 @@ inquirer.prompt([
 
        let content = 
        
-       `<font color='" + ${color} + "'>${fullName}</font>
-
-       ![userImage](${profilePic})
+       "# " + "<font color='" + color + "'>" + fullName + "</font>" + "\n" + "![userImage](" + profilePic + ")" + "\n" + "### Location: " + location + "\n" + "### Bio: " + bio + "\n" + "### Repo URL: " + url + "\n" + "### Public Repositories: " + publicRepos + "\n" + "### Followers: " + followers + "\n" + "### Following: " + following;
        
-       Location: ${location}
+    //    `#
+    //    <font color='" + ${color} + "'>${fullName}</font>
        
-       Bio: ${bio}
+    //    ![userImage](${profilePic})
        
-       Repo URL: ${url}
+    //    ### Location: ${location}
        
-       Public Repositories: ${publicRepos}
+    //    ### Bio: ${bio}
        
-       Followers: ${followers}
+    //    ### Repo URL: ${url}
        
-       Following: ${following} `
+    //    ### Public Repositories: ${publicRepos}
+       
+    //    ### Followers: ${followers}
+       
+    //    ### Following: ${following} `;
 
 
 
