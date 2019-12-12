@@ -36,8 +36,9 @@ inquirer.prompt([
        let publicRepos = response.data.public_repos;
        let followers = response.data.followers;
        let following = response.data.following;
+    
 
-       let content = "![](" + profilePic + ")  " + "\nFull Name: " + fullName + "\nLocation: " + location + "\nBio: " + bio + "\nRepo URL: " + url + "\nPublic Repositories: " + publicRepos + "\nFollowers: " + followers + "\nFollowing: " + following 
+       let content = "![userImage](" + profilePic + ")" + "\n" + "Full Name: " + fullName + "\n" + "Location: " + location + "\n" + "Bio: " + bio + "\n" + "Repo URL: " + url + "\n" + "Public Repositories: " + publicRepos + "\n" + "Followers: " + followers + "\n" + "Following: " + following 
 
 
 
