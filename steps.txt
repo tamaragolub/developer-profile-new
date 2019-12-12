@@ -1,0 +1,19 @@
+
+
+What I need:
+    index.js
+
+    favorite color - color will be used as color of user name 
+
+    profile image
+    user name
+    link to user github profile
+    location
+    user bio
+    number of public repositories
+    number of followers
+    number of users following
+
+
+    
+
