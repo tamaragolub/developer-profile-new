@@ -26,7 +26,6 @@ inquirer.prompt([
 
     axios.get(queryURL).then(response => {
 
-        
 
        let profilePic = response.data.avatar_url;
        let fullName = response.data.name;
