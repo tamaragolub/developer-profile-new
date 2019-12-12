@@ -1,4 +1,4 @@
-# <font color='yellow'>Tamara Golub</font>
+# <font color='green'>Tamara Golub</font>
 ![userImage](https://avatars3.githubusercontent.com/u/55814090?v=4)
 ### Location: Charlotte, NC
 ### Bio: I am a Full-Stack Developer Student!
