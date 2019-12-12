@@ -35,11 +35,15 @@ inquirer.prompt([
        let publicRepos = response.data.public_repos;
        let followers = response.data.followers;
        let following = response.data.following;
+       let color = answers.color;
     
+// The template literal here is created using the `` . The $ sign in this file is used to insert Javascript into the template literal string. The $ here is not like the $ in Jquery. 
 
-       let content = `![userImage](${profilePic})
+       let content = 
        
-       Full Name: ${fullName}
+       `<font color='" + ${color} + "'>${fullName}</font>
+
+       ![userImage](${profilePic})
        
        Location: ${location}
        

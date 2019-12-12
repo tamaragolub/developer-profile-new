@@ -1,6 +1,6 @@
-![userImage](https://avatars3.githubusercontent.com/u/55814090?v=4)
-       
-       Full Name: Tamara Golub
+<font color='" + red + "'>Tamara Golub</font>
+
+       ![userImage](https://avatars3.githubusercontent.com/u/55814090?v=4)
        
        Location: Charlotte, NC
        
