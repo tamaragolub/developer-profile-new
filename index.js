@@ -42,24 +42,6 @@ inquirer.prompt([
        let content = 
        
        "# " + "<font color='" + color + "'>" + fullName + "</font>" + "\n" + "![userImage](" + profilePic + ")" + "\n" + "### Location: " + location + "\n" + "### Bio: " + bio + "\n" + "### Repo URL: " + url + "\n" + "### Public Repositories: " + publicRepos + "\n" + "### Followers: " + followers + "\n" + "### Following: " + following;
-       
-    //    `#
-    //    <font color='" + ${color} + "'>${fullName}</font>
-       
-    //    ![userImage](${profilePic})
-       
-    //    ### Location: ${location}
-       
-    //    ### Bio: ${bio}
-       
-    //    ### Repo URL: ${url}
-       
-    //    ### Public Repositories: ${publicRepos}
-       
-    //    ### Followers: ${followers}
-       
-    //    ### Following: ${following} `;
-
 
 
         fs.writeFile(answers.username + ".md", content, err =>{
